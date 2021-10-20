@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box div{
+    width: 400px;
+    height: 400px;
+}
+.box{
+
+    display: flex;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+    justify-content: center;
+    
+}
+.box .dos{
+    overflow: hidden;
+}
+.box .dos img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s ease;
+}
+.box .dos img:hover{
+    transform: scale(1.2);
+}
+
+
